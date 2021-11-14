@@ -19,6 +19,7 @@ fetchProducts() // eslint-disable-next-line
   },[]);
   return (
     <div className ="ui grid container">
+      
       <ProductComponent></ProductComponent>
     </div>
   );
