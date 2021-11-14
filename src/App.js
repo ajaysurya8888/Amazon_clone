@@ -10,8 +10,8 @@ function App() {
    <Router>
      
     <Switch>
-      <Route path="/" exact component = {ProductListing} ></Route>
-      <Route path="/product/:productId" exact component = {ProductDetails} ></Route>
+      <Route path="/Amazon-clone/" exact component = {ProductListing} ></Route>
+      <Route path="/Amazon-clone/product/:productId" exact component = {ProductDetails} ></Route>
       <Route >404 not found</Route>
       </Switch>
      
